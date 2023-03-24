@@ -1,7 +1,23 @@
-body {
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+.nav {
   background-color: blue;
 }
 
 h1 {
-  color: green;
+  color: red;
+}
+
+body {
+  background-color: blue;
+  font-size: 4rem;
+  display: flex;
 }
