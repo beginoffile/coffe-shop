@@ -24,5 +24,13 @@
         @include m.tablet { 
             margin-bottom:0;
         }
+
+        &:hover{
+          color: v.$secondary;  
+        }
+
+        .activo{
+            color: v.$secondary;
+        }
     }
 }
