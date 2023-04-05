@@ -12,10 +12,13 @@ html{
 body{
     font-family: v.$font-main;
     font-size:1.6rem;
+    background-color: v.$brownlight;
 }
 
 p{
     color:v.$black;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
 .contenedor {
