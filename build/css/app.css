@@ -453,6 +453,10 @@ h3 {
   background-image: url("../img/header_galeria.jpg");
 }
 
+.header-contacto {
+  background-image: url("../img/header_contacto.jpg");
+}
+
 .nav-principal {
   display: flex;
   flex-direction: column;
@@ -816,6 +820,49 @@ h3 {
 }
 .contenido-menu .texto p {
   font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contenido-contacto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    background-image: url(../img/granos_cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 40%;
+  }
+}
+
+.formulario .campo {
+  margin-bottom: 2rem;
+}
+.formulario:last-child {
+  margin-bottom: 0;
+}
+.formulario label {
+  text-transform: uppercase;
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.formulario input:not([type=submit]), .formulario select {
+  width: 100%;
+  padding: 1rem;
+  border: 0.5rem solid #5E311E;
+}
+.formulario input[type=submit] {
+  background-color: #5E311E;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  color: #FFFFFF;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.formulario input[type=submit]:hover {
+  cursor: pointer;
 }
 
 .text-center {
